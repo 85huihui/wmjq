@@ -1,0 +1,161 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-14 21:42:14
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 15:46:01
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+/* 媒体查询 */
+@media screen  and (min-width: 320px){
+	html{
+		font-size: calc(320/750*100px)
+	}
+}
+@media screen  and (min-width: 360px){
+	html{
+		font-size: calc(360/750*100px)
+	}
+}
+@media screen  and (min-width: 375px){
+	html{
+		font-size: calc(375/750*100px)
+	}
+}
+@media screen  and (min-width: 411px){
+	html{
+		font-size: calc(411/750*100px)
+	}
+}
+@media screen  and (min-width: 412px){
+	html{
+		font-size: calc(412/750*100px)
+	}
+}
+@media screen  and (min-width: 750px){
+	html{
+		font-size: calc(750/750*100px)
+	}
+}
+@media screen  and (min-width: 768px){
+	html{
+		font-size: calc(768/750*100px)
+	}
+}s
+.all img{
+	width: 100%;
+	height: 13.33rem;
+	display: block;
+	position: relative;
+}
+.all .zc img{
+	width: 1.68rem;
+	height: 0.57rem;
+	position: absolute;
+	top: 0.8rem;
+	right: 0.2rem;
+}
+.all .tx img{
+	width: 3rem;
+	height: 3rem;
+	display: block;
+	position: absolute;
+	top: 1.92rem;
+	left: 2.36rem;
+}
+.all .ma{
+	width: 6.48rem;
+	height: 3rem;
+	background: white;
+	position: absolute;
+	top: 5.45rem;
+	left: 0.57rem;
+	margin: 0 auto;
+	border-radius: 0.2rem;
+}
+.all .ma .im {
+	width: 5rem;
+	height: 0.8rem;
+	/* background: orange; */
+	margin: 0.5rem auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.all .ma .im img{
+	width:0.68rem;
+	height: 0.68rem;
+	display: block; 
+}
+.all .ma .im input{
+	width: 4rem;
+	height: 0.68rem;
+	/* outline: none; */
+	border: none;
+	background: #f2f2f2;
+	border-radius: 0.3rem;
+	border-bottom: 1px solid #f2f2f2;
+	color:#333;
+	padding-left: 0.3rem;
+}
+.all .wh img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	position: absolute;
+	bottom: 4.2rem;
+	left:0.57rem; 
+}
+.all .wh span{
+	font-size: 0.12rem;
+	color: white;
+	position: absolute;
+	bottom: 4.3rem;
+	left: 1.2rem;
+}
+.all .dr img{
+	width:3.47rem;
+	height:0.76rem;  
+	display: block;
+	position: absolute;
+	bottom: 3.4rem;
+	left: 2rem;
+}
+.all .wz img{
+	width:4.51rem;
+	height: 0.56rem;
+	display: block;
+	position: absolute;
+	bottom: 2.4rem;
+	left: 1.5rem; 
+}
+.all .qq img{
+	width: 0.76rem;
+	height: 0.75rem;
+	display: block;
+	position: absolute;
+	bottom: 1.2rem;
+	left: 2.5rem;
+}
+.all .wx img{
+	width: 0.76rem;
+	height: 0.75rem;
+	display: block;
+	position: absolute;
+	bottom: 1.2rem;
+	right:  2.5rem;
+}

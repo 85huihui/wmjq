@@ -1,0 +1,177 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-12 19:12:46
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 14:37:47
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 媒体查询 */
+@media screen  and (min-width: 320px){
+	html{
+		font-size: calc(320/750*100px)
+	}
+}
+@media screen  and (min-width: 360px){
+	html{
+		font-size: calc(360/750*100px)
+	}
+}
+@media screen  and (min-width: 375px){
+	html{
+		font-size: calc(375/750*100px)
+	}
+}
+@media screen  and (min-width: 411px){
+	html{
+		font-size: calc(411/750*100px)
+	}
+}
+@media screen  and (min-width: 412px){
+	html{
+		font-size: calc(412/750*100px)
+	}
+}
+@media screen  and (min-width: 750px){
+	html{
+		font-size: calc(750/750*100px)
+	}
+}
+@media screen  and (min-width: 768px){
+	html{
+		font-size: calc(768/750*100px)
+	}
+}
+header{
+	width: 100%;
+	height: 3rem;
+	background:#fe8ab7; 
+}
+header .container{
+	width: 7.02rem;
+	height: 3rem;
+	margin: 0 auto;
+	/* background: red; */
+}
+header .gr {
+	width: 100%;
+	height: 0.49rem;
+}
+header .gr  h3{
+	font-size: 0.3rem;
+	color: white;
+	text-align: center;
+	line-height: 0.49rem;
+}
+header .bj{
+	width: 100%;
+	height: 0.5rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.04rem;
+}
+header .bj img{
+	width: 0.41rem;
+	height: 0.41rem;
+}
+header .ner {
+	width: 100%;
+	height: 2.01rem;
+	padding: 0.33rem 0;
+}
+header .ner .ptc{
+	width: 1.34rem;
+	height: 1.34rem;
+	border-radius: 0.67rem;
+	background: white;
+	float: left;
+}
+header .ner .ptc img{
+	width: 1.34rem;
+	height: 1.34rem;
+	display: block;
+	border-radius: 0.67rem;
+}
+header .ner .list{
+	width: calc(100% - 1.34rem);
+	height: 1.34rem;
+	/* background: orange; */
+	float: left;
+	position: relative;
+}
+header .ner .list h3{
+	font-size: 0.3rem;
+	color: white;
+	padding-left: 0.2rem;
+}
+header .ner .list p{
+	font-size: 0.25rem;
+	color: white;
+	padding-top: 0.65rem;
+	padding-left: 0.45rem;
+}
+header .ner .list .jt img{
+	width: 0.17rem;
+	height: 0.31rem;
+	position: absolute;
+	top: 0.5rem;
+	right: 0rem;
+}
+header .ner .list .sj img{
+	width: 0.19rem;
+	height: 0.26rem;
+	position: absolute;
+	left: 0.2rem;
+	bottom: 0;
+}
+main{
+	width: 7.27rem;
+	height: 8.83rem;
+	background-image: url('../img/个人中心.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.foot{
+	width: 100%;
+	height: 1.2rem;
+	padding: 0.1rem 0.24rem;
+	position: fixed;
+	bottom: 0;
+	left:0;
+	margin-top: 0.2rem;
+	background: white;
+	box-shadow: 0 0 0.3rem 0.15rem rgba(255, 138, 197, 0.3);
+}
+.foot .content-list{
+	width: 100%;
+	height: 1rem;
+	background: white;
+}
+.foot .content-list ul{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.16rem ;
+}
+.foot .content-list ul li{
+	width: 0.8rem;
+	height: 0.86rem;
+	display: flex;
+	justify-content: center;
+	padding-top:0.1rem; 
+
+}
+.foot .content-list ul li img{
+	width: 0.38rem;
+	height: 0.54rem;
+}

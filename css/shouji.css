@@ -1,0 +1,349 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-08 10:44:36
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-16 13:36:56
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 媒体查询 */
+@media screen  and (min-width: 320px){
+	html{
+		font-size: calc(320/750*100px)
+	}
+}
+@media screen  and (min-width: 360px){
+	html{
+		font-size: calc(360/750*100px)
+	}
+}
+@media screen  and (min-width: 375px){
+	html{
+		font-size: calc(375/750*100px)
+	}
+}
+@media screen  and (min-width: 411px){
+	html{
+		font-size: calc(411/750*100px)
+	}
+}
+@media screen  and (min-width: 412px){
+	html{
+		font-size: calc(412/750*100px)
+	}
+}
+@media screen  and (min-width: 750px){
+	html{
+		font-size: calc(750/750*100px)
+	}
+}
+@media screen  and (min-width: 768px){
+	html{
+		font-size: calc(768/750*100px)
+	}
+}
+header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fe8ab7;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+header .center{
+	width: 5.3rem;
+	height: 0.9rem;
+	margin-left: 1.4rem;
+	/* background: yellow; */
+    position: relative;
+}
+header .center input{
+	width: 4.23rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 0.3rem;
+	border: none;
+	text-align: center;
+	margin-top:0.25rem ;
+	float: left;
+    outline: none;
+    color: #000;
+}
+/* 改变input中的提示性文字的样式 */
+input::-webkit-input-placeholder{
+	color: #e0e0e0;
+	font-size: 0.24rem;
+}
+header .list-frist{
+	font-size: 12px;
+	position: absolute;
+	left: 0.13rem;
+	top:0.25rem;
+}
+header .list-scond{
+	font-size: 0.24rem;
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background: white;
+    position: absolute;
+    padding-left: 0.03rem;
+    top: 0.25rem;
+    right: 0rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.swiper-pagination-bullet-active{
+	background: deeppink;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container {
+	width: 100%;
+	height: 3.38rem;
+	margin-top:0.9rem ;
+}
+.section{
+	width:100%;
+	height: 3.96rem;
+/* 	background: pink;  */
+	padding: 0.2rem 0.24rem;
+}
+.section .main{
+	width: 7.05rem;
+	height: 3.53rem;
+    /* background: orange; */
+}
+.section .main ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: 0.15rem;
+}
+.section .main ul li{
+     height: 1.54rem;
+     width: 1.12rem;
+/*      background: red; */
+}
+.section .main img{
+	width: 1.22rem;
+	height: 1.59rem;
+}
+.quality{
+	width: 100%;
+	height: 5.02rem;
+	background: white;
+	padding:0 0.24rem ;
+}
+.quality .list{
+	width: 100%;
+	height: 1.55rem;
+	display: flex;
+    justify-content: center;
+    padding: 0.22rem 0;
+}
+.quality .list img{
+	width:3.07rem;
+    height:1.13rem;
+
+}
+.quality .list-ner{
+	width: 100%;
+	height: 3.45rem; padding-top: 0.1rem;
+}
+.quality .list-ner img{
+	width: 100%;
+	height: 3.25rem;
+}
+.bass{
+	width: 100%;
+	height: 1.6rem;
+/* 	background: yellow; */
+	padding:0 0.24rem ;
+}
+.bass .list{
+	width: 100%;
+	height: 1.55rem;
+	display: flex;
+    justify-content: center;
+    padding: 0.22rem 0;
+}
+.bass .list img{
+	width:3.07rem;
+    height:1.13rem;
+}
+.content{
+	width: 100%;
+	height: 0.92rem;
+	/*  background: red;  */
+	padding:0 0.24rem ;
+}
+.content .ner{
+	width: 100%;
+	height: 0.88rem;
+	/* background: orange; */
+}
+.content .ner ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0.11rem 0;	
+}
+.content .ner ul li{
+	width: 1.37rem;
+	height: 0.62rem;
+	border-radius: 0.31rem;
+	border: 0.03rem solid #ff0063;
+	display: flex;
+	justify-content: center; 
+    font-size: 0.26rem;
+	line-height: 0.62rem;
+	color: #000;
+}
+.bottom{
+	width:100%;
+	height: 7.84rem;
+/* 	background: blue; */
+	padding: 0.26rem  0.24rem;
+	margin-bottom: 1.5rem;
+}
+.bottom .section{
+	width: 100%;
+	height: 8rem;
+/* 	background: green; */
+}
+.bottom .section ul li{
+	width: 100%;
+	height: 2.38rem;
+	background:white;
+	box-shadow: 0 0 0.3rem 0.15rem rgba(255, 138, 197, 0.3);
+	display: flex;
+	justify-content: center;
+	padding-top: 0.12rem;
+}
+.bottom .section .pct{
+	width: 1.64rem;
+	height: 1.98rem;
+	background: orange;
+	float: left;
+}
+.bottom .section .pct img{
+	width: 1.64rem;
+	height: 1.98rem;
+	display: block;
+}
+.bottom .section .content{
+	width: 4.41rem;
+	height: 2rem;
+	font-size: 0.2rem;
+	float: left;
+/* 	overflow: hidden; */
+}
+.bottom .section .content .title{
+	width: 100%;
+	height: 0.46rem;
+	display: flex;
+	justify-content: space-between;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bottom .section .content .title h5 {
+	font-size:0.30rem;
+	color: #000;
+	line-height: 0.46rem;
+}
+.bottom .section .content .title span {
+	font-size: 0.30rem;
+	color: #000;
+	line-height: 0.46rem;
+}
+.bottom .section .content .title-ner{
+	width: 100%;
+	height: 0.39rem;
+	margin-top: 0.11rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bottom .section .content .title-ner span{
+	font-size:0.25rem;
+	color: #7e7e7e;
+	line-height: 0.39rem;
+}
+.bottom .section .content .maney{
+	width: 100%;
+	height: 0.39rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.11rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bottom .section .content .maney span{
+	font-size: 0.26rem;
+	color: #ff136a;
+	font-weight: bold;
+}
+.bottom .section .content .maney p{
+	font-size: 0.26rem;
+	color: #7e7e7e;
+}
+.bottom .section .content .enjoy{
+	width: 0.86rem;
+	height: 0.42rem;
+	border-radius: 0.21rem;
+	background: #fa416e;
+	text-align: center;line-height: 0.42rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bottom .section .content .enjoy span{
+	
+	color: white;
+
+}
+.foot{
+	width: 100%;
+	height: 1.2rem;
+	padding: 0.1rem 0.24rem;
+	position: fixed;
+	bottom: 0;
+	left:0;
+	margin-top: 0.2rem;
+	background: white;
+	box-shadow: 0 0 0.3rem 0.15rem rgba(255, 138, 197, 0.3);
+}
+.foot .content-list{
+	width: 100%;
+	height: 1rem;
+	background: white;
+}
+.foot .content-list ul{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.16rem ;
+}
+.foot .content-list ul li{
+	width: 0.8rem;
+	height: 0.86rem;
+	display: flex;
+	justify-content: center;
+	padding-top:0.1rem; 
+
+}
+.foot .content-list ul li img{
+	width: 0.38rem;
+	height: 0.54rem;
+}

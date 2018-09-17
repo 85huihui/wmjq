@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="css/zc.css">
+	<meta name="viewport"
+	      content="width=device-width
+	              initial-scale=1.0
+	              user-scalable=no">
+</head>
+<body>
+	<div class="all">
+		<img src="img/图层1@3x.png" alt="">
+		<div class="ma">
+			<div class="im">
+				<img src="img/Icon_User拷贝@3x.png" alt="">
+				<input type="text" placeholder="请输入手机号或账号" class="number" >
+			</div>
+			<div class="imr">
+				<img src="img/验证码@3x.png" alt="">
+				<input type="text" placeholder="获取验证码"   class="imrr" >
+				<img src="img/获取验证码@3x.png" alt="" class="yz">
+			</div>
+			<div class="im">
+				<img src="img/Icon_Lock拷贝@3x.png" alt="">
+				<input type="password" placeholder="请输入8位密码 " class="pos">
+			</div>
+		</div>
+		<div class="dr">
+			<a href="dr.html"><img src="img/登录@2x.png" alt=""></a>
+		</div>
+		<div class="zc">
+			<img src="img/注册1@2x (2).png" alt="">
+		</div>
+		<div class="wz">
+			<img src="img/请选择第三方登录@2x.png" alt="">
+		</div>
+		<div class="qq">
+			<img src="img/图层1拷贝2@2x.png" alt="">
+		</div>
+		<div class="wx">
+			<img src="img/矢量智能对象副本3拷贝2@2x.png" alt="">
+		</div>
+	</div>
+</body>
+</html>
+<script>
+		let num=document.querySelector(".number");
+		let imr=document.querySelector(".imrr");
+		let pos=document.querySelector(".pos");
+		let zu=document.querySelector(".zc");
+		let yz=document.querySelector(".yz")
+		console.log(num,imr,pos,zu,yz)
+		let first=Math.floor(Math.random()*10);
+		let two=Math.floor(Math.random()*10);
+		let thirst=Math.floor(Math.random()*10);
+		let fore=Math.floor(Math.random()*10);
+		zu.onclick=function () {
+		    let num1=num.value;
+			let imr1=imr.value;
+			let pos1=pos.value;
+            // console.log(num,imr,pos)
+			if(!num1 && !imr1 && !pos1) {
+                alert("请输入信息")
+            } else if (num=="" ){
+			    // window.open("zc.html");
+                alert("请输入信息")
+			} else if (num=="" ){
+                // window.open("zc.html");
+                alert("请输入信息")
+            } else if (num=="" ){
+                // window.open("zc.html");
+                alert("请输入信息")
+            }else {
+                window.open("dr.html" );
+			}
+        }
+		yz.onclick=function () {
+			imr.value=(	`${first}${two}${thirst}${fore}`)
+        }
+</script>
